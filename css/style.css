@@ -1,0 +1,19 @@
+.dropdown_menu{
+    display: none;
+}
+
+.dropdown ul li a:hover{
+    color: aliceblue;
+}
+
+.dropdown ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #212529;
+}
+
+.dropdown ul li:hover .dropdown_menu ul{
+    display: block;
+}
